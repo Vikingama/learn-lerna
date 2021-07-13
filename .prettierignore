@@ -1,0 +1,12 @@
+.cache
+.git
+.husky
+.idea
+.temp
+.vscode
+
+**/dist
+**/node_modules
+
+**/*.lock
+**/*.log

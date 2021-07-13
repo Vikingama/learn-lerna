@@ -1,0 +1,12 @@
+{
+  "packages": ["packages/*"],
+  "version": "independent",
+  "useWorkspaces": true,
+  "npmClient": "yarn",
+  "changelog": {},
+  "command": {
+    "registry": "https://npm.pkg.github.com",
+    "ignoreChanges": [],
+    "message": ""
+  }
+}
