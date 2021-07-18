@@ -9,7 +9,7 @@ module.exports = {
   scopes: [{ name: 'root' }, ...scopes.map(name => ({ name }))],
   scopeOverrides: {},
   allowCustomScopes: false,
-  allowBreakingChanges: ['feat', 'fix', 'st,sit'],
+  allowBreakingChanges: ['feat', 'fix', 'st', 'sit'],
   skipQuestions: [],
   appendBranchNameToCommitMessage: false,
   // ticketNumberPrefix: '',
@@ -56,7 +56,7 @@ module.exports = {
     type: '选择本次更改的提交类型: \n',
     scope: '选择本次更改涉及模块: \n',
     subject: '输入针对本次更改的简要说明: \n',
-    body: '输入针对本次更改的详细描述（非必须），使用' | '进行换行，每行长度不要超过 72: \n',
+    body: '输入针对本次更改的详细描述（非必须），使用" | "进行换行，每行长度不要超过 72: \n', // 这里有问题
     breaking: '如果本次更改存在不兼容的修改，则须对更改的内容进行详细描述，否则无需填写: \n',
     footer: '列举本次更改对应的 Tapd 缺陷 ID（比如 #31、#34）: \n',
     confirmCommit: '是否使用以上提交信息进行提交？',
