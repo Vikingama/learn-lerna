@@ -4,8 +4,7 @@ const { getWorkspacesName } = require('./workspace')
 const getCurrentBranch = () => {
   try {
     const gitStatus = execSync('git status', { encoding: 'utf8' })
-    const temp = gitStatus.split('\n')[0].replace('On branch ', '')
-    return temp
+    return gitStatus.split('\n')[0].replace('On branch ', '')
   } catch (error) {
     throw new Error(`执行 git 命令时出错，具体如下：\n${error.toString()}`)
   }

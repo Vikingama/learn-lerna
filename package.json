@@ -37,12 +37,14 @@
   },
   "author": "",
   "workspaces": [
-    "packages/*"
+    "packages/@cli/*",
+    "packages/@lstack/*",
+    "packages/@project/*"
   ],
   "lint-staged": {
-    "**/*.{js,ts,vue,htm,html,md}": "eslint --cache --fix",
-    "**/*.{css,scss,sass,vue}": "stylelint --fix",
-    "**/*": "prettier -write --ignore-unknown"
+    "**/*.{js,ts,vue,htm,html,md}": "eslint --format=codeframe",
+    "**/*.{css,scss,sass,vue}": "stylelint --formatter verbose",
+    "**/*": "prettier --check"
   },
   "config": {
     "commitizen": {
@@ -51,6 +53,8 @@
   },
   "scripts": {
     "commit": "git add . && cz",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "eslint:fix": "eslint --fix . --ext .js,.ts,.vue,.htm,.html,.md",
+    "stylelint:fix": "stylelint --fix **/*.{css,scss,sass,vue}"
   }
 }
