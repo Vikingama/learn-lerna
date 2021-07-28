@@ -1,0 +1,225 @@
+// ----------- 品牌主色 ----------- //
+
+/// brand1-1
+/// @semantic 亮
+$color-brand-light: #e3f5ff !default;
+/// @semantic 浅
+$color-brand-tint: #91d1ff !default;
+/// brand1-6
+/// @semantic 常规
+$color-brand-normal: #3ea2fd !default;
+/// brand1-9
+/// @semantic 深
+$color-brand-dark: #2b7ed6 !default;
+$color-brand-deep: #1a5eb0 !default;
+// ----------- 品牌主色 ----------- //
+
+/// brand1-1
+/// @semantic 亮
+$color-brand1-light: #f0f5ff !default;
+/// @semantic 浅
+$color-brand1-tint: #b9ccfa !default;
+/// brand1-6
+/// @semantic 常规
+$color-brand1-normal: #5e7ce0 !default;
+/// brand1-9
+/// @semantic 深
+$color-brand1-dark: #455cba !default;
+$color-brand1-deep: #2f4094 !default;
+
+// ----------- 功能色 ----------- //
+
+// 成功
+
+/// @semantic 亮
+$color-success-light: #f0fff9 !default;
+/// @semantic 浅
+$color-success-tint: #8ee6c8 !default;
+/// @semantic 常规
+$color-success-normal: #3dcca6 !default;
+/// @semantic 深
+$color-success-dark: #29a689 !default;
+/// @semantic 重
+$color-success-deep: #19806b !default;
+
+// 提示
+
+/// @semantic 亮
+$color-notice-light: #e3f2fd !default;
+/// @semantic 浅
+$color-notice-tint: #e3f2fd !default;
+/// @semantic 常规
+$color-notice-normal: #bad9ff !default;
+/// @semantic 深
+$color-notice-dark: #4494f9 !default;
+/// @semantic 重
+$color-notice-deep: #2e7de0 !default;
+
+// 警告
+
+/// @semantic 亮
+$color-warning-light: #fffcf0 !default;
+/// @semantic 浅
+$color-warning-tint: #ffeaa6 !default;
+/// @semantic 常规
+$color-warning-normal: #fecc55 !default;
+/// @semantic 深
+$color-warning-dark: #d9a53d !default;
+/// @semantic 重
+$color-warning-deep: #b38029 !default;
+
+// 错误
+
+/// @semantic 亮
+$color-error-light: #fff2f0 !default;
+/// @semantic 浅
+$color-error-tint: #ffc6bf !default;
+/// @semantic 常规
+$color-error-normal: #f66f6a !default;
+/// @semantic 深
+$color-error-dark: #cf4e4e !default;
+/// @semantic 重
+$color-error-deep: #a8383b !default;
+
+// 帮助
+
+/// @semantic 亮
+$color-help-light: #e3fff8 !default;
+/// @semantic 浅
+$color-help-tint: #e3fff8 !default;
+/// @semantic 常规
+$color-help-normal: #c0ece2 !default;
+/// @semantic 深
+$color-help-dark: #01c1b2 !default;
+/// @semantic 重
+$color-help-deep: #01a79a !default;
+
+// 链接
+
+/// @semantic 亮
+$color-link1-light: #f0f5ff !default;
+/// @semantic 浅
+$color-link1-tint: #b9ccfa !default;
+/// @semantic 常规
+$color-link1-normal: #5e7ce0 !default;
+/// @semantic 深
+$color-link1-dark: #455cba !default;
+/// @semantic 重
+$color-link1-deep: #2f4094 !default;
+
+$color-link2-light: #ffffff !default;
+$color-link2-tint: #ffffff !default;
+$color-link2-normal: #c1c6c8 !default;
+$color-link2-dark: #3e71f7 !default;
+$color-link2-deep: #3e71f7 !default;
+
+// 其它
+
+/// other-1
+/// @export
+$color-other-1: #ffeb3b !default;
+
+/// other-2
+/// @export
+$color-other-2: #fccc12 !default;
+
+/// other-3
+/// @export
+$color-other-3: #eabb06 !default;
+
+// ----------- 中立色 ----------- //
+
+// 预设
+
+/// white
+/// @export
+$color-white: #ffffff;
+/// black
+/// @semantic 纯黑
+$color-black: #000000;
+/// transparent
+/// @export
+$color-transparent: transparent;
+
+// 线条
+
+/// @semantic 亮
+$color-line-light: #e2e2e2 !default;
+/// @semantic 浅
+$color-line-tint: #dfe1e6 !default;
+/// @semantic 常规
+$color-line-normal: #dddddd !default;
+/// @semantic 深
+$color-line-dark: #757583 !default;
+/// @semantic 重
+$color-line-deep: #535458 !default;
+
+// 填充
+
+/// @semantic 亮
+$color-fill1-light: $color-white !default;
+/// @semantic 浅
+$color-fill1-tint: #f5f5f6 !default;
+/// @semantic 常规
+$color-fill1-normal: #eef0f5 !default;
+/// @semantic 深
+$color-fill1-dark: #f2f5fc !default;
+/// @semantic 重
+$color-fill1-deep: #262f3e !default;
+
+/// @semantic 亮
+$color-fill2-light: #151822 !default;
+/// @semantic 浅
+$color-fill2-tint: #1e222d !default;
+/// @semantic 常规
+$color-fill2-normal: #1e222d !default;
+/// @semantic 深
+$color-fill2-dark: #262f3e !default;
+/// @semantic 重
+$color-fill2-deep: #f5f5f6 !default;
+
+// 文字
+
+// @semantic 禁用
+$color-text-disable: #adb0b8 !default;
+// @semantic 占位符
+$color-text-placeholder: $color-text-disable !default;
+/// @semantic 水印/提示
+$color-text-tip: #8a8e99 !default;
+/// @semantic 标签
+$color-text-label: #8a8e99 !default;
+/// @semantic 正文/标题
+$color-text-body: #575d6c !default;
+/// @semantic 正文/标题
+$color-text-title: #252b3a !default;
+/// @semantic 高亮/焦点
+$color-text-highlight: $color-text-title !default;
+
+/// @semantic 禁用
+$color-text2-disable: #7c878e !default;
+// @semantic 占位符
+$color-text2-placeholder: $color-text2-disable !default;
+/// @semantic 水印/提示
+$color-text2-tip: #7c878e !default;
+/// @semantic 标签
+$color-text2-label: #7c878e !default;
+/// @semantic 正文/标题
+$color-text2-body: #c1c6c8 !default;
+/// @semantic 正文/标题
+$color-text2-title: #ffffff !default;
+/// @semantic 高亮/焦点
+$color-text2-highlight: $color-text2-title !default;
+
+// ----------- 数据色 ----------- //
+
+// 数据序列（安全色值）
+$color-data1-1: #00dccd !default;
+$color-data1-2: #506fed !default;
+$color-data1-3: #ae66fc !default;
+$color-data1-7: #4dde6d !default;
+$color-data1-8: #18b1f7 !default;
+
+// 数据序列（告警色值）
+$color-data1-6: #ffd74d !default;
+$color-data1-5: #ff934d !default;
+$color-data1-4: #ff445f !default;

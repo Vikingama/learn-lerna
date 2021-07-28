@@ -1,0 +1,19 @@
+@import '~@lstack/style-scss/lib/token';
+
+$lui-sheet__horizontal--margin: $padding-xl !default;
+$lui-sheet__vertical--margin: $padding-xl !default;
+$lui-sheet__highlight--color: $color-text-highlight !default;
+$lui-sheet__bottom-border-width: $line-1 !default;
+$lui-sheet__bottom-border-color: $color-line-normal !default;
+
+$lui-sheet-item--font-size: $font-size-body-l !default;
+$lui-sheet-item--color: $color-text-body !default;
+$lui-sheet-item__highlight--color: $color-brand1-normal !default;
+$lui-sheet-item__highlight--font-weight: $font-weight-bold !default;
+$lui-sheet-item--height: $form-element-medium-height !default;
+$lui-sheet-item--line-height: $lui-sheet-item--height !default;
+$lui-sheet-item__margin-left: $padding-xl !default;
+$lui-sheet-item__after--height: $line-2 !default;
+$lui-sheet-item__disabled--color: $color-text-disable !default;
+$lui-sheet-item__after--background-color: $color-transparent !default;
+$lui-sheet-item__after-highlight--background-color: $color-brand1-normal !default;

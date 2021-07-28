@@ -1,0 +1,25 @@
+@import '~@lstack/style-scss/lib/token';
+
+$lui-text--line-height: $font-lineheight-normal !default;
+$lui-text__size-m--font-size: $font-size-body-m !default;
+$lui-text__size-l--font-size: $font-size-body-l !default;
+$lui-text__size-m-vertical--margin: $padding-s !default;
+$lui-text__size-m-horizontal--margin: $padding-xs !default;
+$lui-text__size-l-vertical--margin: $padding-m !default;
+$lui-text__size-l-horizontal--margin: $padding-s !default;
+
+$lui-text__theme-light-tip-color: $color-text-tip !default;
+$lui-text__theme-light-default--color: $color-text-body !default;
+$lui-text__theme-light-highlight--color: $color-text-highlight !default;
+$lui-text__theme-light-brand--color: $color-brand-normal !default;
+$lui-text__theme-light-primary--color: $color-brand1-normal !default;
+$lui-text__theme-light-warning--color: $color-warning-normal !default;
+$lui-text__theme-light-error--color: $color-error-normal !default;
+$lui-text__theme-light-success--color: $color-success-dark !default;
+
+$lui-text__theme-dark-default--color: $color-text2-body !default;
+$lui-text__theme-dark-highlight--color: $color-text2-highlight !default;
+$lui-text__theme-dark-primary--color: $color-brand1-normal !default;
+$lui-text__theme-dark-tip-color: $color-text-tip !default;
+
+$lui-text__theme-coloured-default--color: $color-white !default;

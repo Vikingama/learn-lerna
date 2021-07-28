@@ -1,0 +1,31 @@
+@import '~@lstack/style-scss/lib/token';
+
+$lui-block--font-size: $font-size-body-m;
+$lui-block--line-height: $font-lineheight-normal;
+$lui-block--margin: $padding-m $padding-xxl $padding-m $padding-xl;
+$lui-block--border-radius: $form-element-small-corner;
+$lui-block--border-width: $line-1;
+$lui-block--border-style: $line-solid;
+$lui-block--border-style: $line-solid;
+$lui-block--margin-bottom: $padding-l;
+
+$lui-block__dark--background-color: $color-text2-body;
+$lui-block__dark--border-color: $color-text2-body;
+
+$lui-block__info--background-color: $color-text-body;
+$lui-block__info--border-color: $color-text-body;
+
+$lui-block__hint--background-color: $color-text-tip;
+$lui-block__hint--border-color: $color-text-tip;
+
+$lui-block__primary--background-color: $color-brand1-light;
+$lui-block__primary--border-color: $color-brand1-tint;
+
+$lui-block__success--background-color: $color-success-light;
+$lui-block__success--border-color: $color-success-tint;
+
+$lui-block__error--background-color: $color-error-light;
+$lui-block__error--border-color: $color-error-tint;
+
+$lui-block__warning--background-color: $color-warning-light;
+$lui-block__warning--border-color: $color-warning-tint;

@@ -1,0 +1,8 @@
+export { default as BaseView } from './base-view'
+export { default as BaseDeleteView } from './base-delete-view'
+export { default as BaseFilterableView } from './base-filterable-view'
+export { default as BaseFormView } from './base-form-view'
+export { default as BaseSubFormView } from './base-sub-form-view'
+export { default as BaseFormItemListView } from './base-form-item-list-view'
+export { default as BaseInfoView } from './base-info-view'
+export { default as BaseSideFormView } from './base-side-form-view'

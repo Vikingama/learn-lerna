@@ -1,0 +1,29 @@
+////
+/// @module line: 线条
+/// @type String
+/// @category style
+////
+
+// Line
+// 根据 Alibaba Base DPL(BASE DPL)
+// 边框主要用于呈现元素内容区域，显示元素的操作区域；线主要用于管理和分隔列表和页面布局内的内容。以便让内容生成更好的视觉效果及空间感。
+
+// ************************** 公共变量, 供开发者和设计师引用 *********************** //
+
+/// @semantic 无
+$line-zero: 0px !default;
+/// @semantic 细
+$line-1: 1px !default;
+/// @semantic 常规
+$line-2: 2px !default;
+/// @semantic 粗
+$line-3: 3px !default;
+/// line-solid
+$line-solid: solid !default;
+/// line-dashed
+$line-dashed: dashed !default;
+/// line-dotted
+$line-dotted: dotted !default;
+
+// ----------- patch ----------- //
+$line-0: $line-zero;

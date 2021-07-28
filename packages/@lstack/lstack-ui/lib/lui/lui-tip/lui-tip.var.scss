@@ -1,0 +1,18 @@
+@import '~@lstack/style-scss/lib/token';
+
+$lui-tip--line-height: $font-lineheight-normal !default;
+$lui-tip__vertical--margin: $padding-s !default;
+$lui-tip__horizontal--margin: $padding-xs !default;
+
+$lui-tip__theme-light-default--color: $color-text-tip !default;
+$lui-tip__theme-dark-default--color: $color-text2-tip !default;
+$lui-tip__theme-light-primary--color: $color-brand1-normal !default;
+$lui-tip__theme-dark-primary--color: $color-brand1-normal !default;
+$lui-tip__theme-light-success--color: $color-success-normal !default;
+$lui-tip__theme-dark-success--color: $color-success-normal !default;
+$lui-tip__theme-light-error--color: $color-error-normal !default;
+$lui-tip__theme-dark-error--color: $color-error-normal !default;
+$lui-tip__theme-light-warning--color: $color-warning-normal !default;
+$lui-tip__theme-dark-warning--color: $color-warning-normal !default;
+$lui-tip__theme-light-help--color: $color-help-normal !default;
+$lui-tip__theme-dark-help--color: $color-help-normal !default;

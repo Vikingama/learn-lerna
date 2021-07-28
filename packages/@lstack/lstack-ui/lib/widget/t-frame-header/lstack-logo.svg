@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="20px" viewBox="0 0 90 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>资源 1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(0.000000, -15.000000)">
+            <g id="资源-1">
+                <rect id="矩形" x="0" y="0" width="90" height="50"></rect>
+                <path d="M0,21.122449 L2.37574547,22.5316468 L2.37574547,28.749329 L8.16326531,32.1823214 L8.16326531,35 L0,30.1585268 L0,21.122449 Z M8.97924144,15 L13.7488284,17.6054233 L11.3640349,18.9084665 L8.97924144,17.6054233 L4.76888613,19.9058085 L8.97924144,22.2061937 L13.1902975,19.9058085 L15.5743902,18.6027653 L17.9591837,19.9058085 L17.9591837,29.7174254 L11.3289953,33.3394214 L8.97924144,34.6232339 L8.97924144,26.3958257 L11.3289953,25.1179813 L11.3289953,30.7339981 L15.5743902,28.4143822 L15.5743902,21.2088517 L8.97924144,24.811617 L2.38479346,21.2088517 L0,19.9058085 L2.38479346,18.6027653 L8.97924144,15 Z" id="形状结合" fill="#0093DD" fill-rule="nonzero"></path>
+                <text id="LStack" font-family="PingFangSC-Semibold, PingFang SC" font-size="20" font-weight="500" fill="#0093DD">
+                    <tspan x="24" y="32">LStack</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

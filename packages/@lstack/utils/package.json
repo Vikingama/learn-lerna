@@ -1,0 +1,37 @@
+{
+  "name": "@lstack/utils",
+  "version": "0.1.0",
+  "description": "LStack 前端工具包，包含各类常用对象和函数 API",
+  "keywords": [
+    "lstack",
+    "frontend",
+    "util",
+    "utils"
+  ],
+  "homepage": "http://git.lstack-inner.com/lstack-hybrid/console/lsh-frontend/#readme",
+  "bugs": {
+    "url": "http://git.lstack-inner.com/lstack-hybrid/console/lsh-frontend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.lstack-inner.com/lstack-hybrid/console/lsh-frontend.git",
+    "directory": "packages/@lstack/utils"
+  },
+  "author": "wubin <bbye913@gmail.com>",
+  "main": "./index.js",
+  "dependencies": {
+    "deepmerge": "^4.2.2",
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.clonedeepwith": "^4.5.0",
+    "lodash.get": "^4.4.2",
+    "lodash.groupby": "^4.6.0",
+    "lodash.isequal": "^4.5.0",
+    "lodash.pick": "^4.4.0",
+    "lodash.uniqueid": "^4.0.1",
+    "lodash.set": "^4.3.2",
+    "js-md5": "^0.7.3"
+  },
+  "publishConfig": {
+    "registry": "http://npm.lstack-inner.com/"
+  }
+}

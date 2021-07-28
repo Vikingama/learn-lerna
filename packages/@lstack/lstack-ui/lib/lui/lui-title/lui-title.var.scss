@@ -1,0 +1,16 @@
+@import '~@lstack/style-scss/lib/token';
+
+$lui-title--line-height: $font-lineheight-normal !default;
+$lui-title__theme-light--color: $color-text-title !default;
+$lui-title__theme-dark--color: $color-text2-title !default;
+$lui-title__weight-normal--font-weight: $font-weight-normal !default;
+$lui-title__weight-bold--font-weight: $font-weight-bold !default;
+$lui-title__size-s--font-size: $font-size-title-s !default;
+$lui-title__size-m--font-size: $font-size-title-m !default;
+$lui-title__size-l--font-size: $font-size-title-l !default;
+$lui-title__size-s-horizontal--margin: $padding-s !default;
+$lui-title__size-s-vertical--margin: $padding-s !default;
+$lui-title__size-m-horizontal--margin: $padding-m !default;
+$lui-title__size-m-vertical--margin: $padding-m !default;
+$lui-title__size-l-horizontal--margin: $padding-l !default;
+$lui-title__size-l-vertical--margin: $padding-l !default;

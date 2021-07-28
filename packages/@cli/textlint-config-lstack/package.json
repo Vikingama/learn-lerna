@@ -1,0 +1,43 @@
+{
+  "name": "@cli/textlint-config-lstack",
+  "version": "0.1.0",
+  "description": "LStack 文本格式校验的配置",
+  "keywords": [
+    "lstack",
+    "frontend",
+    "textlint",
+    "textlint-config",
+    "textlintconfig"
+  ],
+  "homepage": "http://git.lstack-inner.com/lstack-hybrid/console/lsh-frontend/#readme",
+  "bugs": {
+    "url": "http://git.lstack-inner.com/lstack-hybrid/console/lsh-frontend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.lstack-inner.com/lstack-hybrid/console/lsh-frontend.git",
+    "directory": "packages/@cli/textlint-config-lstack"
+  },
+  "author": "wubin <bbye913@gmail.com>",
+  "main": "./index.js",
+  "dependencies": {
+    "@textlint-rule/textlint-rule-no-unmatched-pair": "^1.0.7",
+    "@textlint-rule/textlint-rule-preset-google": "^0.1.2",
+    "textlint-filter-rule-comments": "^1.2.2",
+    "textlint-rule-apostrophe": "^2.0.0",
+    "textlint-rule-common-misspellings": "^1.0.1",
+    "textlint-rule-diacritics": "^1.0.0",
+    "textlint-rule-en-capitalization": "^2.0.2",
+    "textlint-rule-ja-space-between-half-and-full-width": "^2.0.2",
+    "textlint-rule-stop-words": "^2.0.6",
+    "textlint-rule-terminology": "^2.1.4",
+    "textlint-rule-write-good": "^1.6.2",
+    "textlint-rule-zh-half-and-full-width-bracket": "^1.1.0"
+  },
+  "peerDependencies": {
+    "textlint": "^11.0.0"
+  },
+  "publishConfig": {
+    "registry": "http://npm.lstack-inner.com/"
+  }
+}

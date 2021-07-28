@@ -1,0 +1,85 @@
+@import '../../token';
+
+.el-form-item__label {
+  .el-form-item--small & {
+    line-height: $form-element-small-height;
+  }
+
+  .el-form-item.is-required:not(.is-no-asterisk) .el-form-item__label-wrap > &:after,
+  .el-form-item.is-required:not(.is-no-asterisk) > &:after {
+    content: '*';
+    color: $color-error-normal;
+    margin-left: $padding-xs;
+  }
+
+  .el-form-item.is-required:not(.is-no-asterisk) .el-form-item__label-wrap > &:before,
+  .el-form-item.is-required:not(.is-no-asterisk) > &:before {
+    content: unset;
+    color: unset;
+    margin-right: unset;
+  }
+}
+.el-form-item__content {
+  line-height: $form-element-large-height;
+  font-size: $form-element-large-font-size;
+
+  .el-form-item--mini & {
+    line-height: $form-element-mini-height;
+    font-size: $form-element-mini-font-size;
+  }
+  .el-form-item--small & {
+    line-height: $form-element-small-height;
+    font-size: $form-element-small-font-size;
+  }
+  .el-form-item--middle & {
+    line-height: $form-element-medium-height;
+    font-size: $form-element-medium-font-size;
+  }
+}
+.lui-form-item.is-inline {
+  display: inline-block;
+}
+.el-form-item {
+  margin-bottom: unset;
+  margin-top: $padding-xl;
+
+  &.el-form-item--mini {
+    margin-bottom: unset;
+    margin-top: $padding-m;
+  }
+
+  &.el-form-item--small,
+  &.el-form-item--middle {
+    margin-bottom: unset;
+    margin-top: $padding-l;
+  }
+
+  &.is-no-margin {
+    margin-top: unset;
+  }
+}
+.el-form-item__content--align-top > * {
+  vertical-align: top;
+}
+.el-form-item__content--align-bottom > * {
+  vertical-align: bottom;
+}
+.el-form-item__content--align-middle > * {
+  vertical-align: middle;
+}
+.el-form-item__content--align-baseline > * {
+  vertical-align: baseline;
+}
+
+//.el-form-item.is-error .el-input__inner,
+//.el-form-item.is-error .el-textarea__inner {
+//  border-color: $color-line-normal;
+//}
+//.el-form-item.is-error .el-input__inner:focus,
+//.el-form-item.is-error .el-textarea__inner:focus {
+//  border-color: $color-brand1-normal;
+//}
+//.el-form-item.is-error .el-input__inner:hover,
+//.el-form-item.is-error .el-textarea__inner:hover {
+//  border-color: $--border-color-dark;
+//}

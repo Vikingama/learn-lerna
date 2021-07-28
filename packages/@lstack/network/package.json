@@ -1,0 +1,33 @@
+{
+  "name": "@lstack/network",
+  "version": "0.1.0",
+  "description": "网络相关",
+  "keywords": [
+    "lstack",
+    "frontend",
+    "network",
+    "ajax",
+    "axios",
+    "api",
+    "utils"
+  ],
+  "homepage": "http://git.lstack-inner.com/lstack-hybrid/console/lsh-frontend/#readme",
+  "bugs": {
+    "url": "http://git.lstack-inner.com/lstack-hybrid/console/lsh-frontend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.lstack-inner.com/lstack-hybrid/console/lsh-frontend.git",
+    "directory": "packages/@lstack/network"
+  },
+  "author": "wubin <bbye913@gmail.com>",
+  "main": "./index.js",
+  "dependencies": {
+    "@lstack/utils": "^0.1.0",
+    "@lstack/core": "^0.1.0",
+    "axios": "^0.20.0"
+  },
+  "publishConfig": {
+    "registry": "http://npm.lstack-inner.com/"
+  }
+}

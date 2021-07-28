@@ -1,0 +1,26 @@
+@import '../../token';
+
+.lui-button.is-square {
+  border-radius: $corner-zero;
+
+  .icon {
+    font-size: 14px;
+  }
+}
+
+.el-button--small.is-square {
+  padding: calc((#{$form-element-small-height} / 2 - #{$line-1} - 14px / 2));
+  border-color: transparent;
+}
+
+.lui-button.el-button.is-no-margin {
+  margin-left: unset;
+}
+
+.lui-button + .lui-button {
+  margin-left: $padding-s;
+}
+
+.el-button--middle {
+  font-size: $font-size-body-l;
+}

@@ -1,0 +1,172 @@
+////
+/// @module size: 尺寸
+/// @type String
+/// @category style
+////
+
+/**
+ * 尺寸 基础尺寸
+ * 命名能在语义的前提下简单就尽量简单, 这里可以是 size-2x, space-2x, size-base ...
+ * 不过可以在语义的前提下做的更精简一些, 于是用了s2, s1等
+ * 可用变量: `$s1 - $s8`
+ * @example scss - 使用
+ *   .element {
+ *     padding: $s1 !default;
+ *   }
+ *
+ * @example css - CSS 输出
+ *   .element {
+ *     padding: 4px !default;
+ *   }
+ */
+
+/// size-base
+/// @semantic 基础尺寸
+/// @type Length
+$size-base: 4px !default;
+
+$s-zero: 0px;
+$s-1: $size-base * 1;
+$s-2: $size-base * 2;
+$s-3: $size-base * 3;
+$s-4: $size-base * 4;
+$s-5: $size-base * 5;
+$s-6: $size-base * 6;
+$s-7: $size-base * 7;
+$s-8: $size-base * 8;
+$s-9: $size-base * 9;
+$s-10: $size-base * 10;
+$s-11: $size-base * 11;
+$s-12: $size-base * 12;
+$s-13: $size-base * 13;
+$s-14: $size-base * 14;
+$s-15: $size-base * 15;
+$s-16: $size-base * 16;
+$s-17: $size-base * 17;
+$s-18: $size-base * 18;
+$s-19: $size-base * 19;
+$s-20: $size-base * 20;
+$s-21: $size-base * 21;
+$s-22: $size-base * 22;
+$s-23: $size-base * 23;
+$s-24: $size-base * 24;
+$s-25: $size-base * 25;
+$s-26: $size-base * 26;
+$s-27: $size-base * 27;
+$s-28: $size-base * 28;
+$s-29: $size-base * 29;
+$s-30: $size-base * 30;
+$s-31: $size-base * 31;
+$s-32: $size-base * 32;
+$s-33: $size-base * 33;
+$s-34: $size-base * 34;
+$s-35: $size-base * 35;
+$s-36: $size-base * 36;
+$s-37: $size-base * 37;
+$s-38: $size-base * 38;
+$s-39: $size-base * 39;
+$s-40: $size-base * 40;
+$s-41: $size-base * 41;
+$s-42: $size-base * 42;
+$s-43: $size-base * 43;
+$s-44: $size-base * 44;
+$s-45: $size-base * 45;
+$s-46: $size-base * 46;
+$s-47: $size-base * 47;
+$s-48: $size-base * 48;
+$s-49: $size-base * 49;
+$s-50: $size-base * 50;
+
+// ----------- patch ----------- //
+$s-0: $s-zero;
+
+// ------------------- 图标尺寸 ---------------------- //
+
+$icon-xxs: $s-2 !default;
+$icon-xs: $s-3 !default;
+$icon-s: $s-4 !default;
+$icon-m: $s-5 !default;
+$icon-l: $s-6 !default;
+$icon-xl: $s-8 !default;
+$icon-xxl: $s-12 !default;
+$icon-xxxl: $s-16 !default;
+
+// ------------------- 边距尺寸 ---------------------- //
+
+$padding-xs: $s-1 !default;
+$padding-s: $s-2 !default;
+$padding-m: $s-3 !default;
+$padding-l: $s-4 !default;
+$padding-xl: $s-5 !default;
+$padding-xxl: $s-7 !default;
+
+////
+/// @group form-element
+/// @module form-element: 表单通用
+/// @type String
+/// @tag form-element
+/// @category utility
+/// @family form-element
+/// @varPrefix $form-element-
+/// @classPrefix {prefix}-form-element
+////
+
+/// @semantic 迷你组件高度
+$form-element-mini-height: $s-6 !default;
+/// @semantic 小号组件高度
+$form-element-small-height: $s-7 !default;
+/// @semantic 中号组件高度
+$form-element-medium-height: $s-8 !default;
+/// @semantic 大号组件高度
+$form-element-large-height: $s-10 !default;
+
+/// @semantic 迷你组件字体
+$form-element-mini-font-size: $font-size-body-m !default;
+/// @semantic 小号组件字体
+$form-element-small-font-size: $font-size-body-m !default;
+/// @semantic 中号组件字体
+$form-element-medium-font-size: $font-size-body-l !default;
+/// @semantic 大号组件字体
+$form-element-large-font-size: $font-size-title-s !default;
+
+/// @semantic 迷你组件预览态高度
+$form-element-mini-preview-height: $s-6 !default;
+/// @semantic 小号组件预览态高度
+$form-element-small-preview-height: $s-7 !default;
+/// @semantic 中号组件预览态高度
+$form-element-medium-preview-height: $s-8 !default;
+/// @semantic 大号组件预览态高度
+$form-element-large-preview-height: $s-10 !default;
+
+/// @semantic 迷你组件预览态字体
+$form-element-mini-preview-font-size: $font-size-body-m !default;
+/// @semantic 小号组件预览态字体
+$form-element-small-preview-font-size: $font-size-body-m !default;
+/// @semantic 中号组件预览态字体
+$form-element-medium-preview-font-size: $font-size-body-l !default;
+/// @semantic 大号组件预览态字体
+$form-element-large-preview-font-size: $font-size-title-s !default;
+
+/// @semantic 迷你组件 icon
+$form-element-mini-icon-size: $icon-xxs !default;
+/// @semantic 小号组件 icon
+$form-element-small-icon-size: $icon-xs !default;
+/// @semantic 中号组件 icon
+$form-element-medium-icon-size: $icon-xs !default;
+/// @semantic 大号组件 icon
+$form-element-large-icon-size: $icon-s !default;
+
+/// @semantic 迷你组件圆角
+$form-element-mini-corner: $corner-small !default;
+/// @semantic 小号组件圆角
+$form-element-small-corner: $corner-small !default;
+/// @semantic 中号组件圆角
+$form-element-medium-corner: $corner-normal !default;
+/// @semantic 大号组件圆角
+$form-element-large-corner: $corner-normal !default;
+
+$t-frame-header-height: 50px !default;
+$t-frame-header-logo-height: 50px !default;
+$t-frame-header-logo-width: 90px !default;
+$t-frame-left-sidebar-max-width: $s-50 !default;
+$t-frame-left-sidebar-min-width: $s-14 !default;
