@@ -1,0 +1,32 @@
+@import '~@lstack/style-scss/lib/token';
+
+$lui-link--line-height: $font-lineheight-normal !default;
+$lui-link--font-size: $font-size-body-m !default;
+$lui-link--font-weight: $font-weight-normal !default;
+$lui-link__vertical--margin: $padding-s !default;
+$lui-link__horizontal--margin: $padding-xs !default;
+$lui-link-underline--border-bottom: $line-1 $line-solid $color-brand1-normal !default;
+
+$lui-link__type-default--color: $color-text-body !default;
+$lui-link__type-default-hover--color: $color-brand1-normal !default;
+$lui-link__type-default-is-disabled--color: $color-text-disable !default;
+$lui-link-underline__type-default--border-color: $color-text-body !default;
+$lui-link-underline__type-default-hover--border-color: $color-brand1-normal !default;
+
+$lui-link__theme-light--color: $color-text-body !default;
+$lui-link__theme-light-hover--color: $color-brand1-normal !default;
+$lui-link__theme-light-is-disabled--color: $color-text-disable !default;
+$lui-link-underline__theme-light--border-color: $color-text-body !default;
+$lui-link-underline__theme-light-hover--border-color: $color-brand1-normal !default;
+
+$lui-link__theme-dark--color: $color-text2-body !default;
+$lui-link__theme-dark-hover--color: $color-text2-highlight !default;
+$lui-link__theme-dark-is-disabled--color: $color-text2-disable !default;
+$lui-link-underline__theme-dark--border-color: $color-text2-body !default;
+$lui-link-underline__theme-dark-hover--border-color: $color-text2-highlight !default;
+
+$lui-link__type-primary--color: $color-brand1-normal !default;
+$lui-link__type-primary-hover--color: $color-brand1-dark !default;
+$lui-link__type-primary-is-disabled--color: $color-brand1-tint !default;
+$lui-link-underline__type-primary--border-color: $color-brand1-normal !default;
+$lui-link-underline__type-primary-hover--border-color: $color-brand1-dark !default;

@@ -1,0 +1,18 @@
+{
+  "packages": ["packages/@cli/*", "packages/@lstack/*", "packages/@project/*"],
+  "version": "independent",
+  "useWorkspaces": true,
+  "npmClient": "yarn",
+  "changelog": {},
+  "command": {
+    "publish": {
+      "ignoreChanges": ["*.md", "*.txt", "**/test/**", "@(!(native-modules|built-ins|plugins|package)).json"]
+    },
+    "version": {
+      "push": false,
+      "allowBranch": "master",
+      "exact": true,
+      "message": "version: 发布 版本 %v"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+@import '../../token';
+
+@for $size from 0 through 15 {
+  .g-mt-#{$size} {
+    margin-top: #{$size-base * $size};
+  }
+  .g-mr-#{$size} {
+    margin-right: #{$size-base * $size};
+  }
+  .g-mb-#{$size} {
+    margin-bottom: #{$size-base * $size};
+  }
+  .g-ml-#{$size} {
+    margin-left: #{$size-base * $size};
+  }
+  .g-margin-#{$size} {
+    margin: #{$size-base * $size};
+  }
+}
+
+@for $size from 0 through 10 {
+  .g-pt-#{$size} {
+    padding-top: #{$size-base * $size};
+  }
+  .g-pr-#{$size} {
+    padding-right: #{$size-base * $size};
+  }
+  .g-pb-#{$size} {
+    padding-bottom: #{$size-base * $size};
+  }
+  .g-pl-#{$size} {
+    padding-left: #{$size-base * $size};
+  }
+  .g-padding-#{$size} {
+    padding: #{$size-base * $size};
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "@cli/yarn",
+  "version": "0.1.0",
+  "description": "封装了 LStack 前端项目 cli 中用到的一些 yarn 的方法",
+  "keywords": [
+    "lstack",
+    "frontend",
+    "yarn",
+    "lerna",
+    "workspaces",
+    "util",
+    "utils"
+  ],
+  "homepage": "http://git.lstack-inner.com/lstack-hybrid/console/lsh-frontend/#readme",
+  "bugs": {
+    "url": "http://git.lstack-inner.com/lstack-hybrid/console/lsh-frontend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.lstack-inner.com/lstack-hybrid/console/lsh-frontend.git",
+    "directory": "packages/@cli/yarn"
+  },
+  "author": "wubin <bbye913@gmail.com>",
+  "main": "./index.js",
+  "publishConfig": {
+    "registry": "http://npm.lstack-inner.com/"
+  }
+}

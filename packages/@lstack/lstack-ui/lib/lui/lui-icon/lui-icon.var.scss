@@ -1,0 +1,29 @@
+@import '~@lstack/style-scss/lib/token';
+
+$lui-icon--font-weight: $font-weight-normal !default;
+
+$lui-icon__size-xxs--font-size: $icon-xxs !default;
+$lui-icon__size-xs--font-size: $icon-xs !default;
+$lui-icon__size-s--font-size: $icon-s !default;
+$lui-icon__size-m--font-size: $icon-m !default;
+$lui-icon__size-l--font-size: $icon-l !default;
+$lui-icon__size-xl--font-size: $icon-xl !default;
+$lui-icon__size-xxl--font-size: $icon-xxl !default;
+$lui-icon__size-xxxl--font-size: $icon-xxxl !default;
+
+$lui-icon__size-xs-horizontal--margin: $padding-xs !default;
+$lui-icon__size-s-horizontal--margin: $padding-s !default;
+
+$lui-icon__theme-light-tip-color: $color-text-tip !default;
+$lui-icon__theme-light-default-color: $color-text-body !default;
+$lui-icon__theme-light-highlight-color: $color-text-highlight !default;
+$lui-icon__theme-light-error-color: $color-error-normal !default;
+$lui-icon__theme-light-warning-color: $color-warning-normal !default;
+$lui-icon__theme-light-success-color: $color-success-dark !default;
+$lui-icon__theme-light-primary-color: $color-brand1-normal !default;
+
+$lui-icon__theme-dark-highlight-color: $color-text2-highlight !default;
+$lui-icon__theme-dark-error-color: $color-error-normal !default;
+$lui-icon__theme-dark-warning-color: $color-warning-normal !default;
+$lui-icon__theme-dark-success-color: $color-success-normal !default;
+$lui-icon__theme-dark-primary-color: $color-brand1-normal !default;

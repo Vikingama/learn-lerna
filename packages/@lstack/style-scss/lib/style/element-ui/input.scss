@@ -1,0 +1,19 @@
+@import '../../token';
+
+.el-input .el-input__inner {
+  line-height: $font-lineheight-normal;
+}
+
+.lui-input.el-textarea {
+  width: 350px;
+}
+
+.el-input--middle {
+  font-size: $font-size-body-l;
+}
+
+.el-input-group__append,
+.el-input-group__prepend {
+  background-color: inherit;
+  padding: 0 $padding-m;
+}

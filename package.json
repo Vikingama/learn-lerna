@@ -1,0 +1,60 @@
+{
+  "name": "learn-lerna",
+  "private": true,
+  "description": "",
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "commitizen": "4.2.4",
+    "cz-customizable": "^6.3.0",
+    "eslint": "^7.29.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-html": "^6.1.2",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-markdown": "^2.2.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-vue": "^7.13.0",
+    "husky": "^6.0.0",
+    "lerna": "^4.0.0",
+    "lint-staged": ">=10",
+    "prettier": "2.3.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "8.0.2",
+    "stylelint-config-rational-order": "0.1.2",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "2.3.0",
+    "stylelint-declaration-strict-value": "1.7.12",
+    "stylelint-order": "4.1.0",
+    "stylelint-scss": "3.19.0"
+  },
+  "keywords": [],
+  "homepage": "",
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "author": "",
+  "workspaces": [
+    "packages/@cli/*",
+    "packages/@lstack/*",
+    "packages/@project/*"
+  ],
+  "lint-staged": {
+    "**/*.{js,ts,vue,htm,html,md}": "eslint --format=codeframe",
+    "**/*.{css,scss,sass,vue}": "stylelint --formatter verbose",
+    "**/*": "prettier --check"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-customizable"
+    }
+  },
+  "scripts": {
+    "commit": "git add . && cz",
+    "format": "prettier --write .",
+    "eslint:fix": "eslint --fix . --ext .js,.ts,.vue,.htm,.html,.md",
+    "stylelint:fix": "stylelint --fix **/*.{css,scss,sass,vue}"
+  }
+}

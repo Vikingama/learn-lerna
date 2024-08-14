@@ -1,0 +1,57 @@
+@import './form';
+@import './button';
+@import './input';
+@import './loading';
+@import './input-number';
+@import './checkbox';
+@import './date-picker';
+
+.el-divider__text,
+.el-link {
+  font-size: 12px !important;
+}
+
+.g-vertical-center-block {
+  writing-mode: vertical-lr;
+  text-align: center;
+
+  & > * {
+    writing-mode: horizontal-tb;
+    text-align: start;
+  }
+}
+
+.g-wm-vertical-lr {
+  writing-mode: vertical-lr;
+}
+
+.el-input,
+.el-textarea {
+  width: 200px;
+}
+
+.el-dropdown-menu {
+  border: 1px solid #409eff !important;
+  border-radius: 0 !important;
+}
+.el-popper .popper__arrow {
+  display: none !important;
+}
+
+.el-dropdown-menu__item--divided {
+  border-top: 1px solid #409eff !important;
+}
+.el-dropdown-menu__item {
+  color: #444444;
+}
+.el-tooltip__popper.is-dark {
+  background: #464c59 !important;
+  color: #fff;
+}
+
+.el-select-dropdown__item {
+  font-size: 12px !important;
+  padding: 0 15px !important;
+  height: 28px;
+  line-height: 28px;
+}

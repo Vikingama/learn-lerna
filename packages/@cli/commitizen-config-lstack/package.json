@@ -1,0 +1,31 @@
+{
+  "name": "@cli/commitizen-config-lstack",
+  "version": "0.1.0",
+  "description": "符合 LStack 前端提交规范的 commitizen 工具配置",
+  "keywords": [
+    "lstack",
+    "frontend",
+    "commitizen",
+    "commitizenconfig"
+  ],
+  "homepage": "http://git.lstack-inner.com/lstack-hybrid/console/lsh-frontend/#readme",
+  "bugs": {
+    "url": "http://git.lstack-inner.com/lstack-hybrid/console/lsh-frontend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.lstack-inner.com/lstack-hybrid/console/lsh-frontend.git",
+    "directory": "packages/@cli/commitizen-config-lstack"
+  },
+  "author": "wubin <bbye913@gmail.com>",
+  "main": "./index.js",
+  "dependencies": {
+    "@cli/git": "^0.1.0"
+  },
+  "peerDependencies": {
+    "cz-customizable": "^6.0.0"
+  },
+  "publishConfig": {
+    "registry": "http://npm.lstack-inner.com/"
+  }
+}

@@ -1,0 +1,7 @@
+@import '~@lstack/style-scss/lib/token';
+
+$left-t-frame-layout-header--height: $t-frame-header-height !default;
+$left-t-frame-layout-aside--width: $t-frame-left-sidebar-max-width !default;
+$left-t-frame-layout-aside--transition: all cubic-bezier(0.4, 0, 0.2, 1) 0.2s !default;
+$left-t-frame-layout-aside__collapsed--width: $t-frame-left-sidebar-min-width !default;
+$left-t-frame-layout-content--background-color: $color-fill1-normal !default;

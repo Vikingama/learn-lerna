@@ -1,0 +1,15 @@
+@import '~@lstack/style-scss/lib/token';
+
+$lui-divider__light--color: $color-line-normal !default;
+$lui-divider__dark--color: $color-line-deep !default;
+$lui-divider__line-width: $line-1 !default;
+
+$lui-divider__xs-padding: $padding-xs !default;
+$lui-divider__s-padding: $padding-s !default;
+$lui-divider__m-padding: $padding-m !default;
+$lui-divider__l-padding: $padding-l !default;
+$lui-divider__xl-padding: $padding-xl !default;
+$lui-divider__xxl-padding: $padding-xxl !default;
+
+$lui-divider-text__left: $padding-xl !default;
+$lui-divider-text__right: $padding-xl !default;

@@ -1,0 +1,9 @@
+@import '~@lstack/style-scss/lib/token';
+
+$lui-label--line-height: $font-lineheight-normal !default;
+
+$lui-label__light--color: $color-text-label !default;
+$lui-label__dark--color: $color-text2-label !default;
+
+$lui-label__horizontal--margin: $padding-m !default;
+$lui-label__vertical--margin: $padding-m !default;

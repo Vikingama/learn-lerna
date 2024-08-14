@@ -1,0 +1,32 @@
+{
+  "name": "@lstack/style-scss",
+  "version": "0.1.0",
+  "description": "LStack 前端 SCSS 样式库，遵循 LStack UI KIT",
+  "keywords": [
+    "lstack",
+    "frontend",
+    "style",
+    "scss",
+    "style-scss",
+    "class",
+    "token"
+  ],
+  "homepage": "http://git.lstack-inner.com/lstack-hybrid/console/lsh-frontend/#readme",
+  "bugs": {
+    "url": "http://git.lstack-inner.com/lstack-hybrid/console/lsh-frontend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.lstack-inner.com/lstack-hybrid/console/lsh-frontend.git",
+    "directory": "packages/@lstack/style-scss"
+  },
+  "author": "wubin <bbye913@gmail.com>",
+  "main": "./lib/index.scss",
+  "dependencies": {
+    "element-theme-chalk": "^2.15.1",
+    "normalize.css": "^8.0.1"
+  },
+  "publishConfig": {
+    "registry": "http://npm.lstack-inner.com/"
+  }
+}

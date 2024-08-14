@@ -1,0 +1,25 @@
+@import '~@lstack/style-scss/lib/token';
+
+$status-icon-text--line-height: $font-lineheight-normal !default;
+$status-icon-text__size-m--font-size: $font-size-body-m !default;
+$status-icon-text__size-l--font-size: $font-size-body-l !default;
+$status-icon-text__size-m-vertical--margin: $padding-s !default;
+$status-icon-text__size-m-horizontal--margin: $padding-xs !default;
+$status-icon-text__size-l-vertical--margin: $padding-m !default;
+$status-icon-text__size-l-horizontal--margin: $padding-s !default;
+
+$status-icon-text__theme-light-tip-color: $color-text-tip !default;
+$status-icon-text__theme-light-default--color: $color-text-body !default;
+$status-icon-text__theme-light-highlight--color: $color-text-highlight !default;
+$status-icon-text__theme-light-brand--color: $color-brand-normal !default;
+$status-icon-text__theme-light-primary--color: $color-brand1-normal !default;
+$status-icon-text__theme-light-warning--color: $color-warning-normal !default;
+$status-icon-text__theme-light-error--color: $color-error-normal !default;
+$status-icon-text__theme-light-success--color: $color-success-dark !default;
+
+$status-icon-text__theme-dark-default--color: $color-text2-body !default;
+$status-icon-text__theme-dark-highlight--color: $color-text2-highlight !default;
+$status-icon-text__theme-dark-primary--color: $color-brand1-normal !default;
+$status-icon-text__theme-dark-tip-color: $color-text-tip !default;
+
+$status-icon-text__theme-coloured-default--color: $color-white !default;

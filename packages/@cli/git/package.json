@@ -1,0 +1,30 @@
+{
+  "name": "@cli/git",
+  "version": "0.1.0",
+  "description": "包含 LStack Git 相关的工具以及规范校验",
+  "keywords": [
+    "lstack",
+    "frontend",
+    "git",
+    "commit",
+    "lint",
+    "commitlint"
+  ],
+  "homepage": "http://git.lstack-inner.com/lstack-hybrid/console/lsh-frontend/#readme",
+  "bugs": {
+    "url": "http://git.lstack-inner.com/lstack-hybrid/console/lsh-frontend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.lstack-inner.com/lstack-hybrid/console/lsh-frontend.git",
+    "directory": "packages/@cli/git"
+  },
+  "author": "wubin <bbye913@gmail.com>",
+  "main": "./index.js",
+  "dependencies": {
+    "@cli/yarn": "^0.1.0"
+  },
+  "publishConfig": {
+    "registry": "http://npm.lstack-inner.com/"
+  }
+}

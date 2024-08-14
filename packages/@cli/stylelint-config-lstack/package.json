@@ -1,0 +1,39 @@
+{
+  "name": "@cli/stylelint-config-lstack",
+  "version": "0.1.0",
+  "description": "LStack 前端 CSS 样式规范校验配置",
+  "keywords": [
+    "lstack",
+    "frontend",
+    "stylelint",
+    "stylelintconfig",
+    "stylelint-config"
+  ],
+  "homepage": "http://git.lstack-inner.com/lstack-hybrid/console/lsh-frontend/#readme",
+  "bugs": {
+    "url": "http://git.lstack-inner.com/lstack-hybrid/console/lsh-frontend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.lstack-inner.com/lstack-hybrid/console/lsh-frontend.git",
+    "directory": "packages/@cli/stylelint-config-lstack"
+  },
+  "author": "wubin <bbye913@gmail.com>",
+  "main": "./index.js",
+  "dependencies": {
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.3.0",
+    "stylelint-declaration-strict-value": "^1.6.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-plugin-stylus": "^0.9.0",
+    "stylelint-scss": "^3.18.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^13.0.0"
+  },
+  "publishConfig": {
+    "registry": "http://npm.lstack-inner.com/"
+  }
+}

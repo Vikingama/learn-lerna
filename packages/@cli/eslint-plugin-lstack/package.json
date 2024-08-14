@@ -1,0 +1,47 @@
+{
+  "name": "@cli/eslint-plugin-lstack",
+  "version": "0.1.0",
+  "description": "LStack 前端代码规范校验插件",
+  "keywords": [
+    "lstack",
+    "frontend",
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "homepage": "http://git.lstack-inner.com/lstack-hybrid/console/lsh-frontend/#readme",
+  "bugs": {
+    "url": "http://git.lstack-inner.com/lstack-hybrid/console/lsh-frontend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.lstack-inner.com/lstack-hybrid/console/lsh-frontend.git",
+    "directory": "packages/@cli/eslint-plugin-lstack"
+  },
+  "author": "wubin <bbye913@gmail.com>",
+  "main": "./index.js",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.9.0",
+    "@typescript-eslint/parser": "^2.9.0",
+    "babel-eslint": "^10.1.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-html": "^6.1.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^24.0.1",
+    "eslint-plugin-markdown": "^1.0.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "typescript": "^3.6.3",
+    "vue-eslint-parser": "^7.1.0"
+  },
+  "peerDependencies": {
+    "eslint": "^6.2.0"
+  },
+  "publishConfig": {
+    "registry": "http://npm.lstack-inner.com/"
+  }
+}
